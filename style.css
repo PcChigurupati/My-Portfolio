@@ -267,6 +267,7 @@ p.lede{ font-size:17.5px; max-width:56ch; }
   border-top:9px solid transparent; border-bottom:9px solid transparent;
   border-left:14px solid var(--ink-text);
 }
+.work-thumb--pending{ display:none; }
 
 /* ---------- SINGLE IMAGE VIEWER — shown via :target, no JS ---------- */
 .viewer{
