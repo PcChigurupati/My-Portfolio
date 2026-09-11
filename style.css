@@ -251,11 +251,22 @@ p.lede{ font-size:17.5px; max-width:56ch; }
   gap:14px;
 }
 .work-thumb{
-  display:block; border:1px solid var(--ink-line); background-color:var(--ink-2);
+  display:block; position:relative; border:1px solid var(--ink-line); background-color:var(--ink-2);
   background-size:cover; background-position:center;
   aspect-ratio:1/1; transition:opacity .2s ease;
 }
 .work-thumb:hover{ opacity:0.8; }
+.work-thumb--video::before{
+  content:''; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  width:44px; height:44px; border-radius:50%;
+  background:rgba(16,26,43,0.55); border:1px solid var(--ink-line-strong);
+}
+.work-thumb--video::after{
+  content:''; position:absolute; top:50%; left:50%; transform:translate(-42%,-50%);
+  width:0; height:0;
+  border-top:9px solid transparent; border-bottom:9px solid transparent;
+  border-left:14px solid var(--ink-text);
+}
 
 /* ---------- SINGLE IMAGE VIEWER — shown via :target, no JS ---------- */
 .viewer{
@@ -269,6 +280,10 @@ p.lede{ font-size:17.5px; max-width:56ch; }
   width:82vw; height:80vh; max-width:1100px;
   background-color:var(--ink-2); background-size:contain;
   background-repeat:no-repeat; background-position:center;
+}
+.viewer-video{
+  width:82vw; max-width:1100px; max-height:80vh;
+  background-color:#000;
 }
 .viewer-close{ position:absolute; top:24px; right:28px; }
 .viewer-nav{
