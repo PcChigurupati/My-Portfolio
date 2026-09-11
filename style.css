@@ -51,7 +51,7 @@ ul{ margin:0; }
 .nav-mark{ display:flex; align-items:center; }
 .mark-ring{
   position:relative;
-  width:40px; height:40px; border-radius:50%;
+  width:40px; height:40px; aspect-ratio:1/1; border-radius:50%;
   border:1px solid var(--brass);
   display:flex; align-items:center; justify-content:center;
   font-family:'JetBrains Mono', monospace; font-size:16px; letter-spacing:0.04em;
