@@ -337,7 +337,15 @@ p.lede{ font-size:17.5px; max-width:56ch; }
   color:var(--brass);
   border-color:var(--brass);
 }
-
+.pub-scholar-link{
+  margin-top:24px;
+  border-color:var(--paper-line-strong);
+  color:var(--paper-text);
+}
+.pub-scholar-link:hover{
+  border-color:var(--brass-dim);
+  color:var(--brass-dim);
+}
 /* ---------- EDUCATION ---------- */
 .edu-item{
   padding:22px 0; border-top:1px solid var(--ink-line);
