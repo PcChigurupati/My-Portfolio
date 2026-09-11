@@ -54,7 +54,7 @@ ul{ margin:0; }
   width:40px; height:40px; border-radius:50%;
   border:2px solid var(--brass);
   display:flex; align-items:center; justify-content:center;
-  font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.04em;
+  font-family:'JetBrains Mono', monospace; font-size:18px; letter-spacing:0.04em;
   color:var(--brass);
   transition:background-color .2s ease, color .2s ease, transform .2s ease;
 }
