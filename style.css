@@ -133,7 +133,7 @@ a.meta-item:hover{ color:var(--brass); border-color:var(--brass); }
 .photo-frame{
   position:relative; width:220px; height:280px; background-color:var(--ink-2);
   background-size:cover; background-position:center;
-  border:1px solid var(--ink-line-strong);
+  border:2px solid var(--brass);
 }
 .frame-tick{ position:absolute; width:14px; height:14px; border-color:var(--brass); }
 .tick-tl{ top:-1px; left:-1px; border-top:2px solid; border-left:2px solid; }
