@@ -60,7 +60,7 @@ ul{ margin:0; }
 }
 .mark-ring::before{
   content:''; position:absolute; inset:-5px; border-radius:50%;
-  border:1px solid var(--ink-line-strong);
+  border:1px solid var(--brass-dim);
   transition:border-color .2s ease;
 }
 .nav-mark:hover .mark-ring{ background:var(--brass); color:var(--ink); }
