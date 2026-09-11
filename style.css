@@ -51,10 +51,10 @@ ul{ margin:0; }
 .nav-mark{ display:flex; align-items:center; }
 .mark-ring{
   position:relative;
-  width:36px; height:36px; border-radius:50%;
-  border:1px solid var(--brass);
+  width:46px; height:46px; border-radius:50%;
+  border:2px solid var(--brass);
   display:flex; align-items:center; justify-content:center;
-  font-family:'JetBrains Mono', monospace; font-size:10.5px; letter-spacing:0.04em;
+  font-family:'JetBrains Mono', monospace; font-size:12px; letter-spacing:0.04em;
   color:var(--brass);
   transition:background-color .2s ease, color .2s ease, transform .2s ease;
 }
