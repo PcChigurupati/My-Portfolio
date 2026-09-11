@@ -346,6 +346,7 @@ p.lede{ font-size:17.5px; max-width:56ch; }
 .edu-item:last-of-type{ border-bottom:1px solid var(--ink-line); }
 .edu-degree{ font-family:'Fraunces', serif; font-weight:500; font-size:17px; }
 .edu-school{ font-size:14px; color:var(--ink-text-dim); margin-top:4px; }
+.edu-thesis{font-size:13px;font-style:italic;color:var(--ink-text-dim);margin-top:6px;max-width:60ch;}
 .edu-gpa{ font-size:13px; color:var(--brass); white-space:nowrap; }
 
 .two-col{ display:grid; grid-template-columns:1fr 1fr; gap:44px; }
