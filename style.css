@@ -52,14 +52,12 @@ ul{ margin:0; }
 .mark-ring{
   width:40px; height:40px; aspect-ratio:1/1; border-radius:50%;
   border:1px solid var(--brass);
-  outline:1px solid var(--brass-dim);
-  outline-offset:5px;
   display:flex; align-items:center; justify-content:center;
   font-family:'JetBrains Mono', monospace; font-size:16px; letter-spacing:0.04em;
   color:var(--brass);
   transition:background-color .2s ease, color .2s ease, transform .2s ease, outline-color .2s ease;
 }
-.nav-mark:hover .mark-ring{ background:var(--brass); color:var(--ink); outline-color:var(--brass-dim); }
+.nav-mark:hover .mark-ring{ background:var(--brass); color:var(--ink); }
 .nav-links{ display:flex; align-items:center; gap:28px; font-size:12.5px; }
 .nav-links a{ color:var(--ink-text-dim); transition:color .15s ease; }
 .nav-links a:hover{ color:var(--ink-text); }
