@@ -313,7 +313,30 @@ p.lede{ font-size:17.5px; max-width:56ch; }
   content:counter(pub, decimal-leading-zero); font-family:'JetBrains Mono', monospace;
   font-size:12.5px; color:var(--brass-dim); padding-top:1px;
 }
-.pub-list .venue{ display:block; margin-top:5px; font-size:12px; color:var(--paper-text-dim); }
+.pub-list::after{
+  content:"Total publications: " counter(pub);
+  display:block;
+  margin-top:24px;
+  padding-top:20px;
+  border-top:1px solid var(--paper-line);
+  font-family:'JetBrains Mono', monospace;
+  font-size:12px;
+  color:var(--brass-dim);
+}
+.pub-scholar-link{
+  margin-top:24px;
+}
+.pub-list .venue{ display:block; margin-top:5px; font-size:12px; color:var(--paper-text-dim); } 
+  .doi-link{
+  color:var(--brass-dim);
+  text-decoration:none;
+  font-size:12px;
+  border-bottom:1px solid transparent;
+}
+.doi-link:hover{
+  color:var(--brass);
+  border-color:var(--brass);
+}
 
 /* ---------- EDUCATION ---------- */
 .edu-item{
